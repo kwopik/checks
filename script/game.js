@@ -1,6 +1,5 @@
 ﻿/* 
-    автор(с): Кудуштеев Алексей
-    простые Русские шашки, без всяких минимакс и т.п. алгоритмов, просто "тупо" в лоб наивное решение...
+   
     игра создана при помощи JavaScript ES6 HTML5, браузер FireFox Quantum
 */
 
@@ -37,7 +36,7 @@ function game_create(){
 	g_ckrad = build_checkers(g_chks, g_size, g_colors[1]);
 	menu_init(g_hdc, hbm.width, hbm.height);
 
-	setStatus("Автор игры: Кудуштеев Алексей", "#AAAAAA");
+	setStatus("Автор игры: anonim", "#AAAAAA");
 }
 
 
